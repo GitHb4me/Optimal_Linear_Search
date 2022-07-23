@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
 vector<int> nums ={1,2,3,4,5,6,7,8,9};
- int mid= nums.size()/2; int j=mid, num=6;  // num is num to search for
+ int mid= nums.size()/2; int j=mid, num=6;  // num is number to search for
         for(int i=0;i<nums.size(),;i++)
         {
             if(nums[mid]== num){ cout<<"found at"<<mid; break;}
