@@ -13,3 +13,6 @@ vector<int> nums ={1,2,3,4,5,6,7,8,9};
         }
 return 0;
 }
+/* in casse of passing ----> {1,2,6,4,5,6,7,8,9}
+still answer will be " at 5 " because 5th position is nearest from middle split as this search searches from middle of the array
+*/
