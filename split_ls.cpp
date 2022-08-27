@@ -1,5 +1,5 @@
-#include<bits/stdc++.h>  //This program is valid for aaray only with no duplicate occurings
-using namespace std;
+#include<bits/stdc++.h>  //This program is valid for array only with no duplicate occurings
+using namespace std;     // |--> Or if all aray elements are unique
 int main()
 {
 vector<int> nums ={1,2,3,4,5,6,7,8,9};
