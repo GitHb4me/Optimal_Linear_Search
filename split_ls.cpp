@@ -1,8 +1,8 @@
-#include<bits/stdc++.h>
+#include<bits/stdc++.h>  //This program is valid for aaray only with no duplicate occurings
 using namespace std;
 int main()
 {
-vector<int> nums ={1,6,3,4,5,6,7,8,9};
+vector<int> nums ={1,2,3,4,5,6,7,8,9};
  int mid= nums.size()/2; int j=mid,k=nums.size(), num=6;  // num is number to search for
         for(int i=0;i<nums.size();i++)
         {
@@ -16,6 +16,6 @@ vector<int> nums ={1,6,3,4,5,6,7,8,9};
         }
 return 0;
 }
-/* in casse of passing ----> {1,2,6,4,5,6,7,8,9}  you can remove "break" if want to see all duplicate occurings 
+/* in casse of passing ----> {1,2,6,4,5,6,7,8,9}  
 still answer will be " at 5 " because 5th position is nearest from middle split as this search searches from middle of the array
 */
