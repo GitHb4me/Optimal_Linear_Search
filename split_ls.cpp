@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>          // following method is valid only with no duplicate occuring elements
-using namespace std;            // OR all elements in array must be unique
+using namespace std;            // OR all elements in array must be distinct and unique
 int main()
 {
 vector<int> nums ={1,2,3,4,5,6,7,8,9};
